@@ -95,23 +95,30 @@ footer {
     height: 50px;
 }
 
-.sns-wrap {
+/* .sns-wrap {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));
     grid-auto-rows: 10em;
     justify-content: space-around;
     gap: 2em 1em;
     margin-top: 30px;
+} */
+
+.sns-wrap {
+    display: flex;
+    position: absolute;
+    bottom: 40px;
 }
 
 .sns-item {
     justify-self: center;
+    margin: 0 10px 0 10px;
 }
 
 .sns-rect {
-    width: 80px;
-    height: 80px;
-    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
 }
 
 .sns-text {
@@ -145,8 +152,6 @@ footer {
 
 .inner-box {
     display: inline-flex;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    padding-bottom: 30px;
 }
 
 .left-box {
